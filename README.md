@@ -14,6 +14,7 @@ The Standard Edition for Drupal gives developers and designers a clean and stabl
 1. Install the [Drupal starterkit](https://github.com/pattern-lab/starterkit-twig-drupal-minimal) by running `php core/console --starterkit --install pattern-lab/starterkit-twig-drupal-minimal`. If asked about replacing files, do it.
 1. Open `config/config.yml` and set `twigAutoescape` to `false`.
 1. Compile it by running `php core/console --generate`.
+1. Commit the new files generated.
 
 ## Updating Pattern Lab
 
