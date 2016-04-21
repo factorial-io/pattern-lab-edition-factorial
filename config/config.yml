@@ -1,5 +1,5 @@
 v: 2.0.0-DP1
-overrideConfig: false
+overrideConfig: q
 ie:
     - DS_Store
     - less
