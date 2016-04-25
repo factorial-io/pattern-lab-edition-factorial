@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3751b9298e882c47c4b284a01dc9710b",
+    "hash": "0ab60299bf0e7147bbb5ba5367cb89f2",
     "content-hash": "76d4f880a3a18dae8d5b7720e224da67",
     "packages": [
         {
@@ -68,6 +68,50 @@
                 "zip"
             ],
             "time": "2014-12-10 15:03:17"
+        },
+        {
+            "name": "aleksip/plugin-data-transform",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aleksip/plugin-data-transform.git",
+                "reference": "0ca78f235acfc63796d97c5c675d18881672fe4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aleksip/plugin-data-transform/zipball/0ca78f235acfc63796d97c5c675d18881672fe4d",
+                "reference": "0ca78f235acfc63796d97c5c675d18881672fe4d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "patternlab-plugin",
+            "autoload": {
+                "psr-0": {
+                    "aleksip\\DataTransformPlugin\\": "src/",
+                    "Drupal\\Component\\Render\\": "src/",
+                    "Drupal\\Component\\Utility\\": "src/",
+                    "Drupal\\Core\\Template\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aleksi Peebles"
+                }
+            ],
+            "description": "Data Transform Plugin for Pattern Lab PHP",
+            "homepage": "https://github.com/aleksip/plugin-data-transform",
+            "keywords": [
+                "drupal",
+                "pattern lab",
+                "plugin"
+            ],
+            "time": "2016-01-13 14:21:58"
         },
         {
             "name": "doctrine/collections",
@@ -334,16 +378,16 @@
         },
         {
             "name": "pattern-lab/core",
-            "version": "v0.6.11",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternlab-php-core.git",
-                "reference": "c2c4bc6a8bda2b2f9c08b197669ebc94c025e7c6"
+                "reference": "473a17bf0448bbdfdc676ed5658891eca83a4e8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/c2c4bc6a8bda2b2f9c08b197669ebc94c025e7c6",
-                "reference": "c2c4bc6a8bda2b2f9c08b197669ebc94c025e7c6",
+                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/473a17bf0448bbdfdc676ed5658891eca83a4e8c",
+                "reference": "473a17bf0448bbdfdc676ed5658891eca83a4e8c",
                 "shasum": ""
             },
             "require": {
@@ -390,20 +434,20 @@
                 "style guide",
                 "styleguide"
             ],
-            "time": "2015-03-08 01:32:06"
+            "time": "2016-04-18 14:27:27"
         },
         {
             "name": "pattern-lab/patternengine-twig",
-            "version": "v0.7.0",
+            "version": "v0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternengine-php-twig.git",
-                "reference": "2c338eed598ae7ac5969a5396bac2fe0b688e9d3"
+                "reference": "26c4a935fcd637f387fa05f4dac0f686d4607a03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternengine-php-twig/zipball/2c338eed598ae7ac5969a5396bac2fe0b688e9d3",
-                "reference": "2c338eed598ae7ac5969a5396bac2fe0b688e9d3",
+                "url": "https://api.github.com/repos/pattern-lab/patternengine-php-twig/zipball/26c4a935fcd637f387fa05f4dac0f686d4607a03",
+                "reference": "26c4a935fcd637f387fa05f4dac0f686d4607a03",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +498,7 @@
                 "pattern lab",
                 "twig"
             ],
-            "time": "2016-04-04 16:54:15"
+            "time": "2016-04-25 13:46:52"
         },
         {
             "name": "pattern-lab/styleguidekit-assets-default",
@@ -1034,50 +1078,6 @@
                 "templating"
             ],
             "time": "2016-01-25 21:22:18"
-        },
-        {
-            "name": "aleksip/plugin-data-transform",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aleksip/plugin-data-transform.git",
-                "reference": "0ca78f235acfc63796d97c5c675d18881672fe4d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aleksip/plugin-data-transform/zipball/0ca78f235acfc63796d97c5c675d18881672fe4d",
-                "reference": "0ca78f235acfc63796d97c5c675d18881672fe4d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "type": "patternlab-plugin",
-            "autoload": {
-                "psr-0": {
-                    "aleksip\\DataTransformPlugin\\": "src/",
-                    "Drupal\\Component\\Render\\": "src/",
-                    "Drupal\\Component\\Utility\\": "src/",
-                    "Drupal\\Core\\Template\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Aleksi Peebles"
-                }
-            ],
-            "description": "Data Transform Plugin for Pattern Lab PHP",
-            "homepage": "https://github.com/aleksip/plugin-data-transform",
-            "keywords": [
-                "drupal",
-                "pattern lab",
-                "plugin"
-            ],
-            "time": "2016-01-13 14:21:58"
         }
     ],
     "packages-dev": [],
