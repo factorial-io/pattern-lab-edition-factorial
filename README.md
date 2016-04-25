@@ -2,22 +2,19 @@
 
 The Standard Edition for Drupal gives developers and designers a clean and stable base from which to develop a Drupal compatible pattern library.
 
-
 ## Prerequistes 
 
 - [`composer`](https://getcomposer.org)
 
-## Installing & Setup
+## First Time Install
 
-1. Clone or [download](https://github.com/pattern-lab/edition-php-drupal-standard/archive/master.zip) this repo & `cd` into it.
-1. Run `composer install`
-1. Install the [Drupal starterkit](https://github.com/pattern-lab/starterkit-twig-drupal-minimal) by running `php core/console --starterkit --install pattern-lab/starterkit-twig-drupal-minimal`. If asked about replacing files, do it.
-1. Compile it by running `php core/console --generate`.
-1. Commit the new files generated.
+1. Run `composer create-project pattern-lab/edition-drupal-standard FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
+1. Select a starterkit from menu. If asked about replacing files, do it.
+1. Commit any new files if generated.
 
-## Updating Pattern Lab
+## Using It
 
-		composer update
+After installing and committing, others cloning the repo need to run `composer install` to install dependencies.
 
 ## Helpful Commands
 
@@ -46,6 +43,10 @@ To install a near-empty StarterKit as a starting point for your project type:
 To install a specific StarterKit from GitHub type:
 
     php core/console --starterkit --install <starterkit-vendor/starterkit-name>
+
+### Updating Pattern Lab
+
+	composer update
 
 ## Other Documentation
 
