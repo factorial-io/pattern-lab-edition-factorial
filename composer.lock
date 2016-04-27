@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ab60299bf0e7147bbb5ba5367cb89f2",
-    "content-hash": "76d4f880a3a18dae8d5b7720e224da67",
+    "hash": "66391dec4dafc975cf54e3c02701c657",
+    "content-hash": "08bdc05baf71b31befab6bf45a51cc97",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -435,6 +435,62 @@
                 "styleguide"
             ],
             "time": "2016-04-18 14:27:27"
+        },
+        {
+            "name": "pattern-lab/drupal-twig-components",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pattern-lab/plugin-drupal-twig-components.git",
+                "reference": "304d05cba3262a6839d0c75350a64fa049a56614"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pattern-lab/plugin-drupal-twig-components/zipball/304d05cba3262a6839d0c75350a64fa049a56614",
+                "reference": "304d05cba3262a6839d0c75350a64fa049a56614",
+                "shasum": ""
+            },
+            "type": "patternlab-plugin",
+            "extra": {
+                "patternlab": {
+                    "dist": {
+                        "sourceDir": [
+                            {
+                                "filters/*": "_twig-components/filters/*"
+                            },
+                            {
+                                "functions/*": "_twig-components/functions/*"
+                            },
+                            {
+                                "tags/*": "_twig-components/tags/*"
+                            },
+                            {
+                                "tests/*": "_twig-components/tests/*"
+                            }
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Olsen",
+                    "email": "dmolsen@gmail.com",
+                    "homepage": "http://dmolsen.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A collection of Twig components to be used with Drupal- and Twig-related StarterKits.",
+            "homepage": "http://patternlab.io",
+            "keywords": [
+                "drupal",
+                "pattern lab",
+                "twig"
+            ],
+            "time": "2016-04-27 04:30:18"
         },
         {
             "name": "pattern-lab/patternengine-twig",
