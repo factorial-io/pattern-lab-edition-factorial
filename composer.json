@@ -30,7 +30,8 @@
         "pattern-lab/core": "0.*",
         "pattern-lab/patternengine-twig": "~0.7",
         "pattern-lab/styleguidekit-twig-default": "0.*",
-        "aleksip/plugin-data-transform": "dev-master"
+        "aleksip/plugin-data-transform": "dev-master",
+        "pattern-lab/drupal-twig-components": "^0.1.1"
     },
     "scripts": {
         "post-create-project-cmd": [
