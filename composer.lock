@@ -378,16 +378,16 @@
         },
         {
             "name": "pattern-lab/core",
-            "version": "v0.7.1",
+            "version": "v0.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternlab-php-core.git",
-                "reference": "3c2f8120891d1df389160c4c849dff0f44d2791f"
+                "reference": "25c71af708d996d1e2b09490b380b3418918d58f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/3c2f8120891d1df389160c4c849dff0f44d2791f",
-                "reference": "3c2f8120891d1df389160c4c849dff0f44d2791f",
+                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/25c71af708d996d1e2b09490b380b3418918d58f",
+                "reference": "25c71af708d996d1e2b09490b380b3418918d58f",
                 "shasum": ""
             },
             "require": {
@@ -434,7 +434,7 @@
                 "style guide",
                 "styleguide"
             ],
-            "time": "2016-04-27 14:52:55"
+            "time": "2016-04-29 19:24:16"
         },
         {
             "name": "pattern-lab/drupal-twig-components",
