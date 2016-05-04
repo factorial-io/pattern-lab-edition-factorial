@@ -450,16 +450,16 @@
         },
         {
             "name": "pattern-lab/patternengine-twig",
-            "version": "v0.7.1",
+            "version": "v0.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternengine-php-twig.git",
-                "reference": "26c4a935fcd637f387fa05f4dac0f686d4607a03"
+                "reference": "36242077104a0187deea0c00d18fef12861421bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternengine-php-twig/zipball/26c4a935fcd637f387fa05f4dac0f686d4607a03",
-                "reference": "26c4a935fcd637f387fa05f4dac0f686d4607a03",
+                "url": "https://api.github.com/repos/pattern-lab/patternengine-php-twig/zipball/36242077104a0187deea0c00d18fef12861421bc",
+                "reference": "36242077104a0187deea0c00d18fef12861421bc",
                 "shasum": ""
             },
             "require": {
@@ -510,7 +510,7 @@
                 "pattern lab",
                 "twig"
             ],
-            "time": "2016-04-25 13:46:52"
+            "time": "2016-05-04 02:13:27"
         },
         {
             "name": "pattern-lab/styleguidekit-assets-default",
@@ -936,16 +936,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.4",
+            "version": "v2.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "fb467471952ef5cf8497c029980e556b47545333"
+                "reference": "1276bd9be89be039748cf753a2137f4ef149cd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/fb467471952ef5cf8497c029980e556b47545333",
-                "reference": "fb467471952ef5cf8497c029980e556b47545333",
+                "url": "https://api.github.com/repos/symfony/process/zipball/1276bd9be89be039748cf753a2137f4ef149cd74",
+                "reference": "1276bd9be89be039748cf753a2137f4ef149cd74",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +981,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-23 13:11:46"
+            "time": "2016-04-14 15:22:22"
         },
         {
             "name": "symfony/yaml",
