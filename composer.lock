@@ -643,20 +643,20 @@
         },
         {
             "name": "pattern-lab/unified-asset-installer",
-            "version": "v0.5.5",
+            "version": "v0.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/unified-asset-installer.git",
-                "reference": "041235d51ad32beacf435fd6942d01029266de7e"
+                "reference": "ff77fa7032b310400bddc23583ca86d62afd117f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/unified-asset-installer/zipball/041235d51ad32beacf435fd6942d01029266de7e",
-                "reference": "041235d51ad32beacf435fd6942d01029266de7e",
+                "url": "https://api.github.com/repos/pattern-lab/unified-asset-installer/zipball/ff77fa7032b310400bddc23583ca86d62afd117f",
+                "reference": "ff77fa7032b310400bddc23583ca86d62afd117f",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0",
+                "composer-plugin-api": "^1.0",
                 "php": ">=5.3.6"
             },
             "type": "composer-installer",
@@ -688,7 +688,7 @@
                 "pattern lab",
                 "plugins"
             ],
-            "time": "2015-03-02 14:02:04"
+            "time": "2016-05-12 00:32:50"
         },
         {
             "name": "pimple/pimple",
@@ -936,7 +936,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.5",
+            "version": "v2.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aleksip/plugin-data-transform.git",
-                "reference": "4dcce4ff0cfca29d1ede301dfe49ec7c4ea8a60a"
+                "reference": "527b5cec2cc44fb9d6f300003beff26cbb81127f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aleksip/plugin-data-transform/zipball/4dcce4ff0cfca29d1ede301dfe49ec7c4ea8a60a",
-                "reference": "4dcce4ff0cfca29d1ede301dfe49ec7c4ea8a60a",
+                "url": "https://api.github.com/repos/aleksip/plugin-data-transform/zipball/527b5cec2cc44fb9d6f300003beff26cbb81127f",
+                "reference": "527b5cec2cc44fb9d6f300003beff26cbb81127f",
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1136,7 @@
                 "pattern lab",
                 "plugin"
             ],
-            "time": "2016-05-06 05:08:11"
+            "time": "2016-05-11 14:38:38"
         }
     ],
     "aliases": [],
