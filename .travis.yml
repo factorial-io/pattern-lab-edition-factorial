@@ -1,0 +1,8 @@
+language: php
+php:
+  - 5.5
+  - 7.0
+install:
+  - composer create-project --no-scripts # Being asked for Starterkits causes problems and doesn't respect `--no-interaction`
+script:
+  - php core/console --starterkit --install pattern-lab/starterkit-twig-drupal-minimal && php core/console --generate
