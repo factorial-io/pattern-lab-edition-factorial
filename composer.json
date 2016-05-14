@@ -57,7 +57,8 @@
             "starterKitSuggestions": [
                 "pattern-lab/starterkit-twig-drupal-minimal",
                 "pattern-lab/starterkit-twig-demo",
-                "aleksip/starterkit-shila-drupal-theme"
+                "aleksip/starterkit-shila-drupal-theme",
+                "forumone/starterkit-twig-drupal-gesso"
             ]
         }
     }
