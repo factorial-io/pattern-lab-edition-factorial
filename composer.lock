@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2e2fea123e548fccfdd2dc81241b150c",
-    "content-hash": "4f5a078271cdb14fd13d5fbb47f94a43",
+    "hash": "38a242c03837edd91f0292788a5ad02b",
+    "content-hash": "4a05978a2e95e121a84ab4497f5bf26f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1095,7 +1095,7 @@
     "packages-dev": [
         {
             "name": "aleksip/plugin-data-transform",
-            "version": "dev-master",
+            "version": "v0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aleksip/plugin-data-transform.git",
@@ -1141,9 +1141,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "aleksip/plugin-data-transform": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
