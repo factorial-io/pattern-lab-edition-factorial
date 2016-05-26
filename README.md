@@ -10,9 +10,7 @@ The Standard Edition for Drupal gives developers and designers a clean and stabl
 
 1. Run `composer create-project pattern-lab/edition-drupal-standard FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
 1. Select a starterkit from menu. If asked about replacing files, do it.
-1. Commit any new files if generated.
-1. Run `composer update` to grab new goodies until [issue #1](https://github.com/pattern-lab/edition-php-drupal-standard/issues/1) is resolved.
-1. Commit the updates.
+1. Commit new files generated.
 
 ## Using It
 
@@ -21,6 +19,12 @@ After installing and committing, others cloning the repo need to run `composer i
 ## Helpful Commands
 
 These are some helpful commands you can use on the command line for working with Pattern Lab.
+
+### One line start
+
+This will compile PL and watch for changes while running the local server:
+
+    composer run-script start
 
 ### Generate Pattern Lab
 
