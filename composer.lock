@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e12ea116129f1c1472151339e973dbc",
+    "hash": "1f69e48f9ba99bbb81f222fa3bbc1a6b",
     "content-hash": "29a66831b9206500b9c977fe35a9948d",
     "packages": [
         {
@@ -334,16 +334,16 @@
         },
         {
             "name": "pattern-lab/core",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternlab-php-core.git",
-                "reference": "964db90e24757b048b3b03cd9b7a3da4d495f1b5"
+                "reference": "a01366be22f3722f777a65c4b15357a2864cd51e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/964db90e24757b048b3b03cd9b7a3da4d495f1b5",
-                "reference": "964db90e24757b048b3b03cd9b7a3da4d495f1b5",
+                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/a01366be22f3722f777a65c4b15357a2864cd51e",
+                "reference": "a01366be22f3722f777a65c4b15357a2864cd51e",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "style guide",
                 "styleguide"
             ],
-            "time": "2016-05-21 02:15:04"
+            "time": "2016-05-26 18:40:06"
         },
         {
             "name": "pattern-lab/drupal-twig-components",
