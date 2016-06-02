@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f69e48f9ba99bbb81f222fa3bbc1a6b",
+    "hash": "6768e2897628911206f4facc121fa976",
     "content-hash": "29a66831b9206500b9c977fe35a9948d",
     "packages": [
         {
@@ -334,16 +334,16 @@
         },
         {
             "name": "pattern-lab/core",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pattern-lab/patternlab-php-core.git",
-                "reference": "a01366be22f3722f777a65c4b15357a2864cd51e"
+                "reference": "585924c97ce492810b12e355eb073d895eaee7ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/a01366be22f3722f777a65c4b15357a2864cd51e",
-                "reference": "a01366be22f3722f777a65c4b15357a2864cd51e",
+                "url": "https://api.github.com/repos/pattern-lab/patternlab-php-core/zipball/585924c97ce492810b12e355eb073d895eaee7ae",
+                "reference": "585924c97ce492810b12e355eb073d895eaee7ae",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "style guide",
                 "styleguide"
             ],
-            "time": "2016-05-26 18:40:06"
+            "time": "2016-06-01 18:26:32"
         },
         {
             "name": "pattern-lab/drupal-twig-components",
@@ -986,16 +986,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
                 "shasum": ""
             },
             "require": {
@@ -1043,7 +1043,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-25 21:22:18"
+            "time": "2016-05-30 09:11:59"
         }
     ],
     "packages-dev": [
