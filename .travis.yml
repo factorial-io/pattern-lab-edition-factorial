@@ -7,4 +7,3 @@ install:
   - composer create-project --no-interaction
 script:
   - php core/console --generate
-
