@@ -30,11 +30,11 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "pattern-lab/core": "^2.1.0",
+        "pattern-lab/core": "^2.7.0",
         "pattern-lab/patternengine-twig": "^2.0.0",
         "pattern-lab/styleguidekit-twig-default": "^2.0.0",
         "pattern-lab/drupal-twig-components": "^2.0.0",
-        "aleksip/plugin-data-transform": "^0.10.2"
+        "aleksip/plugin-data-transform": "^1.0.0"
     },
     "scripts": {
         "server": "php core/console --server",
