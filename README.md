@@ -1,16 +1,20 @@
 # Pattern Lab Twig Standard Edition for Factorial
 
-The Standard Edition for Factorial gives developers and designers a clean and stable base from which to develop a Drupal compatible pattern library.
+> **Warning: This package is under heavy development – Do not use in production.**
+
+The Pattern Lab Factorial Edition combines a Drupal compatible pattern library with the setup of our frontend stack.
 
 ## Prerequistes
 
 - [`composer`](https://getcomposer.org)
+- [`node`](https://nodejs.org/en/)
+- [`yarn`](https://yarnpkg.com/lang/en/)
 
 ## First Time Install
 
-1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
-1. Select a starterkit from menu. If asked about replacing files, do it.
-1. Commit new files generated.
+1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability alpha` (Assuming you wanted it in a directory called `FOLDERNAME`).
+2. Select the `factorial-io/pattern-lab-starterkit-suitcss` starterkit from menu. If asked about replacing files, do it.
+3. Commit new files generated.
 
 ## Using It
 
@@ -20,11 +24,15 @@ After installing and committing, others cloning the repo need to run `composer i
 
 These are some helpful commands you can use on the command line for working with Pattern Lab.
 
-### One line start
+### Two line start
 
 This will compile PL and watch for changes while running the local server:
 
     composer start
+
+and in a new terminal window
+
+    yarn start
 
 ### Generate Pattern Lab
 
