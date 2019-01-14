@@ -1,16 +1,14 @@
-[![Build Status](https://travis-ci.org/pattern-lab/edition-php-drupal-standard.svg?branch=master)](https://travis-ci.org/pattern-lab/edition-php-drupal-standard)
+# Pattern Lab Twig Standard Edition for Factorial
 
-# Pattern Lab Twig Standard Edition for Drupal 
+The Standard Edition for Factorial gives developers and designers a clean and stable base from which to develop a Drupal compatible pattern library.
 
-The Standard Edition for Drupal gives developers and designers a clean and stable base from which to develop a Drupal compatible pattern library.
-
-## Prerequistes 
+## Prerequistes
 
 - [`composer`](https://getcomposer.org)
 
 ## First Time Install
 
-1. Run `composer create-project pattern-lab/edition-drupal-standard FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
+1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
 1. Select a starterkit from menu. If asked about replacing files, do it.
 1. Commit new files generated.
 
