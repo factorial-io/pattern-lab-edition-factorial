@@ -19,5 +19,23 @@
     "fix": "npm-run-all fix:*",
     "fix:css": "yarn run neutrino stylelint --fix",
     "fix:js": "yarn run neutrino lint --fix"
+  },
+  "dependencies": {
+    "suitcss-base": "^5.0.0",
+    "suitcss-components-arrange": "^1.1.1",
+    "suitcss-components-button": "^6.0.2",
+    "suitcss-components-flex-embed": "^2.0.4",
+    "suitcss-components-grid": "^4.0.0",
+    "suitcss-components-test": "^1.0.0",
+    "suitcss-utils-after": "^1.0.1",
+    "suitcss-utils-align": "^1.0.0",
+    "suitcss-utils-before": "^1.0.1",
+    "suitcss-utils-display": "^1.0.2",
+    "suitcss-utils-flex": "^2.0.1",
+    "suitcss-utils-layout": "^1.0.1",
+    "suitcss-utils-link": "^1.0.1",
+    "suitcss-utils-position": "^1.0.1",
+    "suitcss-utils-size": "^2.0.1",
+    "suitcss-utils-text": "^1.0.0"
   }
 }

@@ -18,8 +18,8 @@
     }
   ],
   "support": {
-    "issues": "https://source.factorial.io/factorial/pattern-lab-edition-factorial/",
-    "source": "https://source.factorial.io/factorial/pattern-lab-edition-factorial/tree/master"
+    "issues": "https://github.com/factorial-io/pattern-lab-edition-factorial/",
+    "source": "https://github.com/factorial-io/pattern-lab-edition-factorial/tree/master"
   },
   "autoload": {
     "psr-0": {
