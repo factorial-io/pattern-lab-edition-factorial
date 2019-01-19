@@ -12,7 +12,7 @@ The Pattern Lab Factorial Edition combines a Drupal compatible pattern library w
 
 ## Creating a new project
 
-1. Run composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability alpha (Assuming you wanted it in a directory called FOLDERNAME).
+1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability alpha` (Assuming you wanted it in a directory called FOLDERNAME).
 2. Select the `factorial-io/pattern-lab-starterkit-suitcss` starterkit from menu. If asked about replacing files, do it.
 3. Commit new files generated.
 
