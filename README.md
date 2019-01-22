@@ -1,63 +1,39 @@
 # Pattern Lab Twig Standard Edition for Factorial
 
-The Standard Edition for Factorial gives developers and designers a clean and stable base from which to develop a Drupal compatible pattern library.
+> **Warning: This package is under heavy development – Do not use in production.**
+
+The Pattern Lab Factorial Edition combines a Drupal compatible pattern library with the setup of our frontend stack.
 
 ## Prerequistes
 
 - [`composer`](https://getcomposer.org)
+- [`node`](https://nodejs.org/en/)
+- [`yarn`](https://yarnpkg.com/lang/en/)
 
-## First Time Install
+## Creating a new project
 
-1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME` (Assuming you wanted it in a directory called `FOLDERNAME`).
-1. Select a starterkit from menu. If asked about replacing files, do it.
-1. Commit new files generated.
+1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability alpha` (Assuming you wanted it in a directory called FOLDERNAME).
+2. Select the `factorial-io/pattern-lab-starterkit-suitcss` starterkit from menu. If asked about replacing files, do it.
+3. Commit new files generated.
 
-## Using It
+## Installing an existing project
 
-After installing and committing, others cloning the repo need to run `composer install` to install dependencies.
+After installing and committing, others cloning the repo need to run `composer install` to install dependencies. This should trigger a `yarn install` as well.
 
-## Helpful Commands
+## Development
 
-These are some helpful commands you can use on the command line for working with Pattern Lab.
+Watch for file changes and start a local development server
 
-### One line start
+    composer start --dev
 
-This will compile PL and watch for changes while running the local server:
+and (in a new terminal window) watch and compile frontend assets with [@factorial/frontend-stack-core](https://github.com/factorial-io/factorial-frontend-stack/tree/master/packages/core)
 
-    composer start
+    yarn start
 
-### Generate Pattern Lab
+## Build
 
-To generate the front-end for Pattern Lab type:
+    yarn run build
 
-    php core/console --generate
+then
 
-### Start a server to view Pattern Lab
-
-You can use PHP's built-in web server to review your Pattern Lab project in a browser. In a separate window type:
-
-    php core/console --server
-
-Then open [http://localhost:8080](http://localhost:8080) in your browser.
-
-### Install a StarterKit
-
-To install a near-empty StarterKit as a starting point for your project type:
-
-    php core/console --starterkit --init
-
-To install a specific StarterKit from GitHub type:
-
-    php core/console --starterkit --install <starterkit-vendor/starterkit-name>
-
-### Updating Pattern Lab
-
-	composer update
-
-## Other Documentation
-
-These are crucial pieces that contains documentation that is good to understand:
-
-- [`pattern-lab/patternengine-twig`](https://github.com/pattern-lab/patternengine-php-twig)
-- [`aleksip/plugin-data-transform`](https://github.com/aleksip/plugin-data-transform)
-- [Twig templating language](http://twig.sensiolabs.org/documentation)
+    composer run generate
