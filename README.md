@@ -1,7 +1,5 @@
 # Pattern Lab Twig Standard Edition for Factorial
 
-> **Warning: This package is under heavy development – Do not use in production.**
-
 The Pattern Lab Factorial Edition combines a Drupal compatible pattern library with the setup of our frontend stack.
 
 ## Prerequistes
