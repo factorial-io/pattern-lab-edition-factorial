@@ -70,7 +70,7 @@
   "extra": {
     "patternlab": {
       "starterKitSuggestions": [
-        "factorial-io/pattern-lab-starterkit-folders",
+        "factorial-io/pattern-lab-starterkit-default",
         "factorial-io/pattern-lab-starterkit-suitcss"
       ]
     }
