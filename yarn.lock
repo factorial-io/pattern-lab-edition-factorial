@@ -250,10 +250,10 @@
     "@neutrinojs/dev-server" "^8.3.0"
     write-file-webpack-plugin "^4.5.0"
 
-"@factorial/frontend-stack-postcss-export-custom-variables@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@factorial/frontend-stack-postcss-export-custom-variables/-/frontend-stack-postcss-export-custom-variables-0.5.0.tgz#a41741cb73f7fe269227cc75181134adc42f13a9"
-  integrity sha512-QUrNyHYW7ofifEoJxxN4sio3d1KnB+tc9x8M6j99bjeoT4tJoGL/7nSbUHiNOAaKgop+OMKN0KlDE9ERvunv/A==
+"@factorial/frontend-stack-postcss-export-custom-variables@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@factorial/frontend-stack-postcss-export-custom-variables/-/frontend-stack-postcss-export-custom-variables-0.6.2.tgz#3ed21a2310a262e34fc14ebb8fc1aa925072f634"
+  integrity sha512-0yy9cTrB9qXPwwtyOUrlQHJ7kxzoeeT0puGWmM9IJ/rcNcRu8savYerx6pNBms8ZmFOWAKEMnVRdlpql1uMftw==
   dependencies:
     "@neutrinojs/style-loader" "^8.3.0"
     postcss-export-custom-variables "^1.0.0"
