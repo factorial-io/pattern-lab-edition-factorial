@@ -12,9 +12,7 @@
     "neutrino": "^8.3.0"
   },
   "scripts": {
-    "start": "run-p dev:*",
-    "dev:neutrino": "yarn run neutrino start",
-    "dev:patternlab": "php core/console --watch",
+    "start": "yarn run neutrino start",
     "build": "yarn run neutrino build --options.env.NODE_ENV production",
     "lint": "npm-run-all lint:*",
     "lint:css": "yarn run neutrino stylelint",
