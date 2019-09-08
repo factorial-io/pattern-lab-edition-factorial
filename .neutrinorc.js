@@ -2,7 +2,6 @@ module.exports = {
   use: [
     "@factorial/frontend-stack-core",
     "@factorial/frontend-stack-pattern-lab",
-    "@factorial/frontend-stack-postcss-export-custom-variables"
   ],
   options: {
     source: "source",
