@@ -1,6 +1,9 @@
-# Pattern Lab Twig Standard Edition for Factorial
+# Pattern Lab Edition Factorial
 
-The Pattern Lab Factorial Edition combines a Drupal compatible pattern library with the setup of our frontend stack.
+> Scaffold a twig pattern library + factorial frontend stack.
+
+## Context
+> https://patternlab.io/docs/advanced-ecosystem-overview.html
 
 ## Prerequistes
 
@@ -8,30 +11,29 @@ The Pattern Lab Factorial Edition combines a Drupal compatible pattern library w
 - [`node`](https://nodejs.org/en/)
 - [`yarn`](https://yarnpkg.com/lang/en/)
 
-## Creating a new project
+## Create a new Project
 
-1. Run `composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability beta` (Assuming you wanted it in a directory called FOLDERNAME).
-2. Select the `factorial-io/pattern-lab-starterkit-default` starterkit from menu. If asked about replacing files, do it.
-3. Commit new files generated.
+    composer create-project factorial-io/pattern-lab-edition-factorial FOLDERNAME --stability beta
 
-## Installing an existing project
+* Select the `factorial-io/pattern-lab-starterkit-default` starterkit from menu.
+* If asked about replacing files, do it.
+* Commit new files generated.
 
-After installing and committing, others cloning the repo need to run `composer install` to install dependencies. This should trigger a `yarn install` as well.
+## Install an existing Project
+
+    composer install
+
+* Assuming you cloned an existing project that was created with `pattern-lab-edition-factorial`.
+* This should trigger a `yarn install` as well.
 
 ## Development
 
-Watch for file changes and start a local development server
-
-    composer start --dev
-
-and (in a new terminal window) watch and compile frontend assets with [@factorial/frontend-stack-core](https://github.com/factorial-io/factorial-frontend-stack/tree/master/packages/core)
-
     yarn start
 
-## Build
+* Starts a development server and watches for file changes.
+
+## Production
 
     yarn run build
 
-then
-
-    composer run generate
+* Creates a production build.
