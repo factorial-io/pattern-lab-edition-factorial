@@ -30,12 +30,10 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn run neutrino lint",
-      "git add"
+      "yarn run neutrino lint"
     ],
     "*.css": [
-      "yarn run neutrino stylelint",
-      "git add"
+      "yarn run neutrino stylelint"
     ]
   }
 }
