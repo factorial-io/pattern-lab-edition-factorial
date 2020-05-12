@@ -3,6 +3,7 @@
 export/*
 public/*
 vendor/*
+source/build
 source/styleguide/*
 config/*.json
 
